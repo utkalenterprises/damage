@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .form-container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            border: none;
+            min-height: 1130px;
+        }
+        @media (max-width: 680px) {
+            body {
+                padding: 10px;
+            }
+            .form-container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYwPZwSgFYkunLixxLhiDyNGhCwTjTa-J8jFb6FbOWVQ9UDg/viewform?embedded=true" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0">
+            Loading…
+        </iframe>
+    </div>
+</body>
+</html>
